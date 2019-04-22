@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="searchViewStyle">@style/YourActionBarSearch</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="YourActionBarSearch" parent="Base.Widget.AppCompat.SearchView.ActionBar">
+        <item name="searchIcon">@drawable/ic_add_circle_black_24dp</item>
+        <item name="queryBackground">@null</item>
+        <item name="submitBackground">@null</item>
+        <item name="searchHintIcon">@drawable/ic_search_black_24dp</item>
+        <item name="defaultQueryHint">@string/search</item>
+        <item name="closeIcon">@drawable/ic_check_circle_black_24dp</item>
+    </style>
+</resources>
